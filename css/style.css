@@ -224,6 +224,9 @@ h6,
     background: rgba(9, 30, 62, .7);
     z-index: 1;
 }
+.display-1{
+    text-transform: uppercase;
+}
 
 @media (max-width: 576px) {
     .carousel-caption h5 {
