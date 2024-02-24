@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
-    --secondary: #34AD54;
+    --primary: #34AD54;
+    --secondary: #06A3DA;
     --light: #EEF9FF;
     --dark: #091E3E;
 }
@@ -158,7 +158,7 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
-        background: #FFFFFF;
+        background: #ffffff;
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -221,12 +221,17 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+    background: rgb(148 179 227 / 70%);
     z-index: 1;
 }
 .display-1{
     text-transform: uppercase;
+    text-shadow: 1px 1px #000000;
 }
+.b1{
+    box-shadow: 1px 1px #000000;
+}
+
 
 @media (max-width: 576px) {
     .carousel-caption h5 {
