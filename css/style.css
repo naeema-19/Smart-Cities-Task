@@ -92,11 +92,11 @@ h6,
 }
 
 .btn-primary:hover {
-    box-shadow: inset 0 0 0 0 var(--primary);
+    box-shadow: inset 0 0 0 0 #34AD54 !important;
 }
 
 .btn-secondary:hover {
-    box-shadow: inset 0 0 0 0 var(--secondary);
+    box-shadow: inset 0 0 0 0 #34AD54;
 }
 
 .btn-square {
